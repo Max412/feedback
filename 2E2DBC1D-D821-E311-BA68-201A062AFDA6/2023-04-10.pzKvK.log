@@ -1,0 +1,79 @@
+INFO:root:2023-04-10 16:03:01.045925: Program started.
+
+ERROR:root:[2023-04-10 16:03:02.781945]
+Traceback (most recent call last):
+  File "C:\Users\maxtyson\Desktop\fin.py", line 15, in <module>
+    current_date_str = response.json()['currentDateTime']
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\models.py", line 897, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\json\__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+INFO:root:2023-04-10 16:03:08.318856: Program started.
+
+ERROR:root:[2023-04-10 16:03:30.126076]
+Traceback (most recent call last):
+  File "C:\Users\maxtyson\Desktop\fin.py", line 15, in <module>
+    current_date_str = response.json()['currentDateTime']
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\models.py", line 897, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\json\__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+INFO:root:2023-04-10 16:04:38.132128: Program started.
+
+ERROR:root:[2023-04-10 16:04:38.502647]
+Traceback (most recent call last):
+  File "C:\Users\maxtyson\Desktop\fin.py", line 15, in <module>
+    current_date_str = response.json()['currentDateTime']
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\models.py", line 897, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\json\__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+INFO:root:2023-04-10 16:06:32.168440: Program started.
+
+ERROR:root:[2023-04-10 16:06:32.562930]
+Traceback (most recent call last):
+  File "C:\Users\maxtyson\Desktop\fin.py", line 22, in <module>
+    if current_date >= target_date:
+TypeError: '>=' not supported between instances of 'str' and 'datetime.datetime'
+
+INFO:root:2023-04-10 16:06:51.298459: Program started.
+
+INFO:root:2023-04-10 16:07:02.281783: Program started.
+
+INFO:root:2023-04-10 16:07:13.233985: Program started.
+
+INFO:root:[2023-04-10 16:07:13.917217]: Modules imported successfully.
+
+INFO:root:[2023-04-10 16:07:14.044921]: Search operation started without arguments.
+
+INFO:root:[2023-04-10 16:07:23.115680]: Received camera data from Shodan.
+
+INFO:root:[2023-04-10 16:07:23.115680]: Camera sweeps have begun.
+
+ERROR:root:[2023-04-10 16:07:40.526179]: KeyboardInterrupt.
+
+INFO:root:[2023-04-10 16:07:40.528185]: Bruteforce started.
+
+INFO:root:[2023-04-10 16:08:48.419031]: Accessed: 190.191.190.188 ('admin', '123789')
+
+INFO:geocoder.base:Requested http://ipinfo.io/190.191.190.188/json
+INFO:root:[2023-04-10 16:08:48.629324]: Shutdown
+
